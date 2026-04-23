@@ -1,0 +1,19 @@
+parameter,value,interpretation
+alpha_1_absorbed_ai_output,1.15,Output gain from absorbed AI use
+alpha_2_redesign_output,0.25,Output gain from routine redesign
+alpha_3_complexity_penalty,0.55,Throughput penalty from complexity
+q_1_skill_quality,0.18,Quality gain from baseline skill
+q_2_monitoring_quality,0.18,Quality gain from monitoring
+q_3_absorption_quality,0.12,Quality gain from absorption
+q_4_unmonitored_ai_penalty,0.22,Quality penalty from unvalidated AI use
+q_5_complexity_error_penalty,0.1,Quality penalty from complexity and error sensitivity
+rho_1_validated_use_learning,0.075,Absorption gain from validated AI use
+rho_2_redesign_learning,0.045,Absorption gain from redesign
+rho_3_skill_learning,0.006,Absorption gain from skill
+rho_4_error_learning_penalty,0.03,Absorption loss from errors
+phi_1_fatigue_persistence,0.52,Fatigue persistence
+phi_2_task_burden_fatigue,0.085,Fatigue accumulation from complexity and workload
+phi_3_absorbed_ai_relief,0.05,Fatigue relief from absorbed AI use
+shock_complexity_delta,0.32,Complexity shock increment
+shock_workload_delta,0.25,Workload shock increment
+shock_deadline_delta,0.2,Deadline pressure shock increment
